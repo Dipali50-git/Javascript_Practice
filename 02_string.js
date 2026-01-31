@@ -1,0 +1,24 @@
+const name="Dipali";
+const repocount=5;
+console.log(`Hello my name is ${name} and my repo count is ${repocount}`);
+const gameName=new String("Football");
+console.log(gameName[0]);
+console.log(gameName.__proto__);
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
+console.log(gameName.toLowerCase());
+console.log(gameName.slice(0,4));
+console.log(gameName.includes("ball"));
+console.log(gameName.split(""));
+console.log(gameName.charAt(2));
+console.log(gameName.indexOf("t"));
+const newString=gameName.replace("Football","Cricket");
+console.log(newString);
+const newString2=gameName.substring(0,4);
+console.log(newString2);
+const anotherString=gameName.slice(-8,4);
+console.log(anotherString);
+const newStringOne="  Dipali   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+console.log(newStringOne.includes("Dip")); 
