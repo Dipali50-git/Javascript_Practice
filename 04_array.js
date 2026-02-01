@@ -13,3 +13,7 @@ console.log(myArr);
 console.log(myArr.includes(30)); //Check if element exists
 console.log(myArr.indexOf(40)); //Get index of element
 console.log(myArr.slice(1,4)); //Extract a section of the array
+console.log(myArr.splice(2,2)); //Remove elements from index 2, count 2
+console.log(myArr);
+myArr.reverse(); //Reverse the array
+console.log(myArr);
