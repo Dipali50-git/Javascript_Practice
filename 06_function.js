@@ -15,3 +15,13 @@ function loginUserMessage(username){
 return `${username} just logged in`
 }
 console.log(loginUserMessage("Dipali"))
+function one(){
+    const username="hitesh"
+    function two(){
+        const website="youtube"
+        console.log(username);
+}
+//console.log(website);
+two()
+}
+one()
