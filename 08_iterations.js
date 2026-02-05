@@ -47,3 +47,10 @@ for (let x = 1; x <= 5; x++) {
 }
 
 console.log("----- END OF PROGRAM -----");
+const coding=["JavaScript","Python","Java"];
+coding.forEach(function (val){
+  console.log(val);
+})
+// coding .forEach((val)=>{
+//   console.log(val);
+// })
